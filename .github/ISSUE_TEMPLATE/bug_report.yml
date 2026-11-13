@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Providentia does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a problem. Please do not paste private code or credentials.
+  - type: input
+    id: version
+    attributes:
+      label: Providentia version
+      description: See CHANGELOG.md or package.json in your download.
+      placeholder: "1.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - Live demo
+        - My local copy (mock API)
+        - My local copy (connected to my backend)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to Users
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser, OS and Node.js version
+      placeholder: Chrome 140 on macOS 15, Node 22.12
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console errors or screenshots
+      description: Paste errors from the browser console or terminal, or drag screenshots here.
