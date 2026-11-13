@@ -11,7 +11,7 @@ team management with roles and account settings — with light/dark mode, six ac
 Built with the latest stable Angular and modern APIs only: **standalone components, signals,
 `rxResource`, `linkedSignal`, Signal Forms, zoneless change detection, new control flow**.
 
-![Providentia demo: overview, users, reports and theme settings](docs/demo.gif)
+![Providentia demo: overview, users, reports, team invites, role preview and theme settings](docs/demo.gif)
 
 **[Try the live demo →](https://demo.rr-dev.eu/providentia/overview)** — no sign-up, runs entirely
 in your browser on generated data.
