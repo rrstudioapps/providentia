@@ -5,8 +5,8 @@
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rrstudioapps)
 
 A free, production-ready admin dashboard template for SaaS products by **rrstudio**: revenue KPIs,
-churn, active users, cohort retention, a customer table with full CRUD, a report builder, billing
-and account settings — with light/dark mode, six accent colors and a fully responsive layout.
+churn, active users, cohort retention, a customer table with full CRUD, a report builder, billing,
+team management with roles and account settings — with light/dark mode, six accent colors and a fully responsive layout.
 
 Built with the latest stable Angular and modern APIs only: **standalone components, signals,
 `rxResource`, `linkedSignal`, Signal Forms, zoneless change detection, new control flow**.
@@ -37,6 +37,10 @@ in your browser on generated data.
 |---|---|
 | ![Billing](docs/screenshots/billing.png) | ![Mobile layout](docs/screenshots/mobile.png) |
 
+| Team & roles | |
+|---|---|
+| ![Team settings with roles and invitations](docs/screenshots/team.png) | |
+
 ---
 
 ## Features
@@ -51,13 +55,17 @@ in your browser on generated data.
   cards, chart and table; saved reports and CSV export.
 - **Billing** — current plan, usage meters, payment method form with card validation, plan
   comparison, plan change and cancel/resume flows, invoice history.
-- **Settings** — Profile (with photo upload), Notifications, Appearance and Security as
+- **Team & roles** — invite members by email with a role, change roles, remove members, pending
+  invitations with resend/revoke, seats tied to the plan. Owner, Admin, Member and Viewer roles
+  drive menus, pages and buttons from one permission table, with a "no access" page. In the demo,
+  **Preview as role** in the user menu shows the app as each role.
+- **Settings** — Profile (with photo upload), Notifications, Appearance, Security and Team as
   deep-linkable tabs, with dirty tracking, validation and server-side field errors. Appearance
   includes a **theme configurator**: light / dark / system, six accent colors (all WCAG AA in both
   themes) and comfortable / compact density.
 - **Auth** — login, registration with password strength meter, forgot/reset password, onboarding
   wizard, return-URL redirect after login.
-- **Global** — command palette (Ctrl/⌘ K), notification feed, in-app 404 page.
+- **Global** — command palette (Ctrl/⌘ K), notification feed, in-app 404 and 403 pages.
 
 **Under the hood**
 

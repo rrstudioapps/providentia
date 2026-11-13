@@ -4,6 +4,34 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.3.0] — 2026-11-13
+
+### Added
+
+- Team & roles: Settings → Team with the workspace members (role, 2FA, last activity) and pending
+  invitations (resend, revoke, expired badge). Invite by email with a role, change roles, remove
+  members with a confirmation. Seats follow the plan and are shared with the Billing "Team seats"
+  meter; downgrading to a plan with fewer seats than the team uses is refused.
+- Four roles — Owner, Admin, Member, Viewer — with one permission table
+  (`core/auth/permissions.ts`), `AccessService.can()` for templates and `permissionGuard()` for
+  routes. Menus, the command palette and the buttons of Users, Reports and Billing follow the role.
+- "No access" (403) page shown in place of a page the role may not open.
+- Preview as role (mock API only): the user menu switches the whole app to what an Admin, Member
+  or Viewer sees, with a banner to switch back.
+- The mock APIs enforce the same permissions and answer `403`, like a real backend should.
+- `TeamApi` (mock and HTTP) and six new endpoints in `docs/openapi.yaml`, which now lists the
+  permission each operation requires (`x-permission`) and its `403` response.
+- Optional "API reference" link in the sidebar (`API_DOCS_URL` in `src/app/config/links.ts`, empty
+  by default).
+
+### Changed
+
+- `UserRole` adds `viewer`. `UsageMetric.limit` can be `null` (unlimited), shown as "Unlimited".
+- New endpoints for your backend: `GET /team`, `POST /team/invites`,
+  `POST /team/invites/:id/resend`, `DELETE /team/invites/:id`, `PATCH /team/members/:id`,
+  `DELETE /team/members/:id`. Existing write endpoints should answer `403` for roles without the
+  permission.
+
 ## [1.2.0] — 2026-11-13
 
 ### Added
