@@ -2,6 +2,7 @@
 
 [![Download free](https://img.shields.io/badge/Download-free-4f46e5?style=for-the-badge)](https://buy.polar.sh/polar_cl_qkpmJsVoK393Bp6lfOAEBDXz3r7wDIzUDs1wO2p31hb)
 [![Live demo](https://img.shields.io/badge/Live-demo-0f172a?style=for-the-badge)](https://demo.rr-dev.eu/providentia/overview)
+[![Getting started](https://img.shields.io/badge/Getting-started-0f766e?style=for-the-badge)](https://demo.rr-dev.eu/docs/providentia/getting-started/)
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rrstudioapps)
 
 A free, production-ready admin dashboard template for SaaS products by **rrstudio**: revenue KPIs,
@@ -102,6 +103,8 @@ in your browser on generated data.
 1. **[Download Providentia for free on Polar](https://buy.polar.sh/polar_cl_qkpmJsVoK393Bp6lfOAEBDXz3r7wDIzUDs1wO2p31hb)** — enter $0 or any amount you like.
 2. Unzip, then `npm install` and `npm start`. The included README covers installation,
    connecting your own API, theming, adding pages and deployment.
+3. Follow the **[Getting started guide](https://demo.rr-dev.eu/docs/providentia/getting-started/)**:
+   rebrand it, add a page, connect your backend, apply roles and deploy, step by step.
 
 New versions are announced in [Releases](../../releases). Downloading again from Polar always gives
 you the latest one.
