@@ -4,6 +4,18 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.3.1] — 2026-11-13
+
+### Fixed
+
+- Forgot password: `POST /auth/password/forgot` answers `422` to a malformed email (documented in
+  `docs/openapi.yaml` and returned by the mock API), and the page shows the server message. It still
+  never reveals whether an account exists.
+- `docs/openapi.yaml` now has a license URL and passes Redocly lint with no warnings.
+
+Includes everything from 1.3.0 (Team & roles, permissions, 403 page, role preview, see the 1.3.0
+entry in `CHANGELOG.md`).
+
 ## [1.3.0] — 2026-11-13
 
 ### Added
