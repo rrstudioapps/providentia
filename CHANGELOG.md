@@ -4,6 +4,23 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.4.1] — 2026-11-14
+
+### Added
+
+- Step-by-step guide `docs/getting-started.md`: run it, rebrand it, add a page (a complete Projects
+  example, checked to build), connect your backend, apply roles and permissions, deploy. Also online at
+  https://demo.rr-dev.eu/docs/providentia/getting-started/.
+- Optional "Getting started" link in the sidebar (`GUIDE_URL` in `config/links.ts`, empty in the
+  download like the other links).
+
+### Changed
+
+- README: production checklist also removes the demo password hint from Settings → Security.
+
+Includes everything from 1.4.0 (API keys & webhooks, accessibility fixes, see the 1.4.0 entry in
+`CHANGELOG.md`).
+
 ## [1.4.0] — 2026-11-14
 
 ### Added
