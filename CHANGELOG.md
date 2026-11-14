@@ -4,6 +4,18 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.3.2] — 2026-11-14
+
+### Fixed
+
+- Charts on phones: after rotating to landscape and back, the charts kept the landscape width and
+  pushed the page sideways. They now shrink back to the screen (`contain: inline-size` on the chart).
+- End-to-end tests: the horizontal-scroll check now compares with the screen width, because on
+  phones `innerWidth` grows with the content and hid the overflow. New test for the rotation case.
+
+Includes everything from 1.3.0 (Team & roles, permissions, 403 page, role preview, see the 1.3.0
+entry in `CHANGELOG.md`).
+
 ## [1.3.1] — 2026-11-13
 
 ### Fixed
