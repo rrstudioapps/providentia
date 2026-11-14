@@ -6,7 +6,7 @@
 
 A free, production-ready admin dashboard template for SaaS products by **rrstudio**: revenue KPIs,
 churn, active users, cohort retention, a customer table with full CRUD, a report builder, billing,
-team management with roles and account settings — with light/dark mode, six accent colors and a fully responsive layout.
+team management with roles, API keys and webhooks, and account settings — with light/dark mode, six accent colors and a fully responsive layout.
 
 Built with the latest stable Angular and modern APIs only: **standalone components, signals,
 `rxResource`, `linkedSignal`, Signal Forms, zoneless change detection, new control flow**.
@@ -37,9 +37,9 @@ in your browser on generated data.
 |---|---|
 | ![Billing](docs/screenshots/billing.png) | ![Mobile layout](docs/screenshots/mobile.png) |
 
-| Team & roles | |
+| Team & roles | API keys & webhooks |
 |---|---|
-| ![Team settings with roles and invitations](docs/screenshots/team.png) | |
+| ![Team settings with roles and invitations](docs/screenshots/team.png) | ![API keys and webhook endpoints](docs/screenshots/developers.png) |
 
 ---
 
@@ -59,7 +59,11 @@ in your browser on generated data.
   invitations with resend/revoke, seats tied to the plan. Owner, Admin, Member and Viewer roles
   drive menus, pages and buttons from one permission table, with a "no access" page. In the demo,
   **Preview as role** in the user menu shows the app as each role.
-- **Settings** — Profile (with photo upload), Notifications, Appearance, Security and Team as
+- **API keys & webhooks** — create API keys (read only or read & write, optional expiry) shown once
+  with a copy button, revoke them; register webhook endpoints for customer, subscription, invoice
+  and team events, enable/disable them, send a test event, browse the delivery log and redeliver
+  failed deliveries.
+- **Settings** — Profile (with photo upload), Notifications, Appearance, Security, Team and API & webhooks as
   deep-linkable tabs, with dirty tracking, validation and server-side field errors. Appearance
   includes a **theme configurator**: light / dark / system, six accent colors (all WCAG AA in both
   themes) and comfortable / compact density.
@@ -76,7 +80,8 @@ in your browser on generated data.
 - Loading skeletons, empty and error states with Retry on every page — the demo lets you simulate a
   slow network and API errors from Settings → Appearance.
 - **Accessible**: semantic landmarks, ARIA on tabs, menus and dialogs, full keyboard support,
-  visible focus, WCAG AA contrast, color-blind safe chart palette.
+  visible focus, WCAG AA contrast, color-blind safe chart palette. Lighthouse accessibility,
+  best practices and SEO score 100 on every page.
 - **Tested**: unit tests with Vitest and end-to-end tests with Playwright (desktop and mobile).
 - No UI-library lock-in: small, readable components you own.
 

@@ -4,6 +4,33 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.4.0] — 2026-11-14
+
+### Added
+
+- API keys & webhooks: Settings → API & webhooks. Create API keys (read only or read & write,
+  optional expiry of 30 days, 90 days or 1 year); the full key is shown once with a copy button and
+  only its prefix is kept. Revoke keys with a confirmation; expired keys are flagged.
+- Webhook endpoints: add, edit, enable/disable and delete endpoints for customer, subscription,
+  invoice and team events; send a test event; delivery log with status code and duration, and
+  redelivery of failed deliveries.
+- New permission `developers.manage` (Owner and Admin). Members and Viewers get a read-only view; the
+  mock API answers `403` to their writes, `422`/`409` to invalid or duplicate keys and endpoints.
+- `DevelopersApi` (mock and HTTP) and nine new endpoints in `docs/openapi.yaml`
+  (`/developers`, `/developers/keys`, `/developers/webhooks`, test and deliveries).
+- Command palette entry "API keys & webhooks", new `copy` icon, end-to-end tests on desktop and phone.
+
+### Changed
+
+- Dialogs scroll inside the screen when they are taller than it (long forms on short phones).
+
+### Fixed
+
+- Accessibility: the Export buttons of Overview and Reports have an accessible name on phones, where
+  only the icon is visible.
+- Accessibility: `aria-sort` of the Users table moved from the sort button to its column header,
+  where screen readers expect it.
+
 ## [1.3.2] — 2026-11-14
 
 ### Fixed
