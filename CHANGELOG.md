@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.4.2] — 2026-11-23
+
+### Changed
+
+- The live demo, the API reference and the Getting started guide moved to https://rrstudio.app. The links in the README and in `docs/getting-started.md` point to the new address (the old one redirects). No change to the template code.
+
 ## [1.4.1] — 2026-11-14
 
 ### Added
