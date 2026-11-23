@@ -11,7 +11,7 @@ not accepted here. The template itself is a free download on
 
 - **Report a bug**: open an issue with the *Bug report* template. Say which version you use (see
   `CHANGELOG.md` in the download), your browser and the steps to reproduce. Check first whether it
-  also happens in the [live demo](https://demo.rr-dev.eu/providentia/overview).
+  also happens in the [live demo](https://rrstudio.app/providentia/overview).
 - **Suggest a feature**: open an issue with the *Feature request* template and describe the problem
   it solves for your dashboard.
 - **Security issues**: do not open a public issue, see [SECURITY.md](SECURITY.md).

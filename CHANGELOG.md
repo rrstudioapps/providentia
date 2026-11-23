@@ -10,7 +10,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 
 - Step-by-step guide `docs/getting-started.md`: run it, rebrand it, add a page (a complete Projects
   example, checked to build), connect your backend, apply roles and permissions, deploy. Also online at
-  https://demo.rr-dev.eu/docs/providentia/getting-started/.
+  https://rrstudio.app/docs/providentia/getting-started/.
 - Optional "Getting started" link in the sidebar (`GUIDE_URL` in `config/links.ts`, empty in the
   download like the other links).
 

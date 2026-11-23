@@ -1,8 +1,8 @@
 # Providentia — SaaS Analytics Dashboard for Angular
 
 [![Download free](https://img.shields.io/badge/Download-free-4f46e5?style=for-the-badge)](https://buy.polar.sh/polar_cl_qkpmJsVoK393Bp6lfOAEBDXz3r7wDIzUDs1wO2p31hb)
-[![Live demo](https://img.shields.io/badge/Live-demo-0f172a?style=for-the-badge)](https://demo.rr-dev.eu/providentia/overview)
-[![Getting started](https://img.shields.io/badge/Getting-started-0f766e?style=for-the-badge)](https://demo.rr-dev.eu/docs/providentia/getting-started/)
+[![Live demo](https://img.shields.io/badge/Live-demo-0f172a?style=for-the-badge)](https://rrstudio.app/providentia/overview)
+[![Getting started](https://img.shields.io/badge/Getting-started-0f766e?style=for-the-badge)](https://rrstudio.app/docs/providentia/getting-started/)
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rrstudioapps)
 
 A free, production-ready admin dashboard template for SaaS products by **rrstudio**: revenue KPIs,
@@ -14,7 +14,7 @@ Built with the latest stable Angular and modern APIs only: **standalone componen
 
 ![Providentia demo: overview, users, reports, team invites, role preview and theme settings](docs/demo.gif)
 
-**[Try the live demo →](https://demo.rr-dev.eu/providentia/overview)** — no sign-up, runs entirely
+**[Try the live demo →](https://rrstudio.app/providentia/overview)** — no sign-up, runs entirely
 in your browser on generated data.
 
 > **About this repository:** this is the public home of Providentia — screenshots, release notes,
@@ -77,7 +77,7 @@ in your browser on generated data.
 - Every route is **lazy loaded**; mock data and ECharts never land in the initial bundle.
 - **Swappable API layer**: realistic mock data or HttpClient with one switch. Every endpoint is
   described in an **OpenAPI 3.1** contract
-  ([API reference](https://demo.rr-dev.eu/docs/providentia/)).
+  ([API reference](https://rrstudio.app/docs/providentia/)).
 - Loading skeletons, empty and error states with Retry on every page — the demo lets you simulate a
   slow network and API errors from Settings → Appearance.
 - **Accessible**: semantic landmarks, ARIA on tabs, menus and dialogs, full keyboard support,
@@ -103,7 +103,7 @@ in your browser on generated data.
 1. **[Download Providentia for free on Polar](https://buy.polar.sh/polar_cl_qkpmJsVoK393Bp6lfOAEBDXz3r7wDIzUDs1wO2p31hb)** — enter $0 or any amount you like.
 2. Unzip, then `npm install` and `npm start`. The included README covers installation,
    connecting your own API, theming, adding pages and deployment.
-3. Follow the **[Getting started guide](https://demo.rr-dev.eu/docs/providentia/getting-started/)**:
+3. Follow the **[Getting started guide](https://rrstudio.app/docs/providentia/getting-started/)**:
    rebrand it, add a page, connect your backend, apply roles and deploy, step by step.
 
 New versions are announced in [Releases](../../releases). Downloading again from Polar always gives
