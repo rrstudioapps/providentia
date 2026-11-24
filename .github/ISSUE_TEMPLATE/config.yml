@@ -7,5 +7,5 @@ contact_links:
     url: https://rrstudio.app/providentia/overview
     about: Check whether the behavior also happens in the live demo.
   - name: Email
-    url: mailto:rrstudio.apps@gmail.com
+    url: mailto:info@rrstudio.app
     about: Questions that are not bug reports or feature requests.

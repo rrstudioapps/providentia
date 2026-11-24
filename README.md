@@ -113,7 +113,7 @@ you the latest one.
 
 - Found a bug? [Open a bug report](../../issues/new?template=bug_report.yml).
 - Missing something? [Request a feature](../../issues/new?template=feature_request.yml).
-- Anything else: [rrstudio.apps@gmail.com](mailto:rrstudio.apps@gmail.com).
+- Anything else: [info@rrstudio.app](mailto:info@rrstudio.app).
 
 ## License
 

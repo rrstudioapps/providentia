@@ -15,7 +15,7 @@ not accepted here. The template itself is a free download on
 - **Suggest a feature**: open an issue with the *Feature request* template and describe the problem
   it solves for your dashboard.
 - **Security issues**: do not open a public issue, see [SECURITY.md](SECURITY.md).
-- **Other questions**: write to rrstudio.apps@gmail.com.
+- **Other questions**: write to info@rrstudio.app.
 - **Support the project**: a star on this repository, a donation on
   [Ko-fi](https://ko-fi.com/rrstudioapps) or paying what you want on Polar.
 
